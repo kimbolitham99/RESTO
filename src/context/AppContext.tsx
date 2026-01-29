@@ -59,12 +59,12 @@ interface AppContextType {
 }
 
 const defaultSettings: Settings = {
-  restaurantName: "La Bella Cucina",
-  whatsappNumber: "6281234567890",
+  restaurantName: "Kantin Mak Vika",
+  whatsappNumber: "6281277112721",
   whatsappMessage: "Halo, saya ingin memesan:\n\n{orderDetails}\n\nTotal: {totalPrice}\n\nTerima kasih!",
-  address: "Jl. Sudirman No. 123, Jakarta Pusat",
-  phone: "(021) 1234-5678",
-  email: "info@labellacucina.com",
+  address: "Jl. Setia Lk.II Tanjungbalai",
+  phone: "081277112721",
+  email: "admin@kantinmakvika.com",
   openingHours: {
     weekdays: "11:00 - 22:00",
     weekends: "10:00 - 23:00"
