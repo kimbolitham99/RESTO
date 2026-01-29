@@ -22,7 +22,7 @@ export const Footer: React.FC = () => {
               🍽️ {settings.restaurantName}
             </h3>
             <p className="text-gray-400 mb-4">
-              Pengalaman kuliner Italia autentik dengan bahan-bahan premium dan pelayanan terbaik.
+              Pengalaman kuliner Indonesia autentik dengan bahan-bahan premium dan pelayanan terbaik.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-amber-500 transition-colors">
