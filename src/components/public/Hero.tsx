@@ -30,7 +30,7 @@ export const Hero: React.FC = () => {
           {settings.restaurantName}
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-gray-200">
-          Pengalaman kuliner Italia autentik dengan bahan-bahan premium
+          Pengalaman kuliner Indonesia autentik dengan bahan-bahan premium
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
