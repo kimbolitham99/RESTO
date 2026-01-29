@@ -6,7 +6,10 @@ import { AdminPage } from './pages/AdminPage';
 export function App() {
   return (
     <AppProvider>
-      <BrowserRouter>
+      {/* Menambahkan basename="/RESTO" sangat penting karena website Anda 
+        berada di sub-folder kimbolitham99.github.io/RESTO/ 
+      */}
+      <BrowserRouter basename="/RESTO">
         <Routes>
           <Route path="/" element={<PublicPage />} />
           <Route path="/admin/*" element={<AdminPage />} />
