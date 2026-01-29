@@ -65,10 +65,7 @@ export function About() {
               A Tradition of Excellence
             </h2>
             <p className="text-stone-300 text-lg mb-6 leading-relaxed">
-              Since 2010, La Bella Cucina has been a beacon of culinary excellence in the heart 
-              of the city. Our founder, Chef Marco Rossi, brought his family's generations-old 
-              recipes from Tuscany and combined them with modern techniques to create an 
-              unforgettable dining experience.
+             Since 2000, Kantin Mak Vika has been a center of culinary excellence in the heart of the city. Our founder brought her family's traditional recipes and combined them with modern techniques to create an unforgettable dining experience.
             </p>
             <p className="text-stone-300 text-lg mb-8 leading-relaxed">
               Every dish tells a story of tradition, passion, and innovation. We believe in 
