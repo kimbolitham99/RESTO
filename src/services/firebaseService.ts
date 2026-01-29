@@ -193,26 +193,26 @@ export const getSettings = async (): Promise<Settings> => {
     }
     // Return default settings if not found
     return {
-      restaurantName: "La Bella Cucina",
-      whatsappNumber: "6281234567890",
+      restaurantName: "Kantin Mak Vika",
+      whatsappNumber: "6281277112721",
       whatsappMessage: "Halo, saya ingin memesan:\n\n{orderDetails}\n\nTotal: {totalPrice}\n\nTerima kasih!",
-      address: "Jl. Sudirman No. 123, Jakarta Pusat",
-      phone: "(021) 1234-5678",
-      email: "info@labellacucina.com",
+      address: "Jl. Setia Lk II , Tanjungbalai",
+      phone: "081277112721",
+      email: "admin@kantinmakvika.com",
       openingHours: {
-        weekdays: "11:00 - 22:00",
-        weekends: "10:00 - 23:00"
+        weekdays: "08:00 - 13:00",
+        weekends: "08:00 - 11:00"
       }
     };
   } catch (error) {
     console.error("Error fetching settings:", error);
     return {
-      restaurantName: "La Bella Cucina",
-      whatsappNumber: "6281234567890",
+      restaurantName: "Kantin Mak Vika",
+      whatsappNumber: "6281277112721",
       whatsappMessage: "Halo, saya ingin memesan:\n\n{orderDetails}\n\nTotal: {totalPrice}\n\nTerima kasih!",
-      address: "Jl. Sudirman No. 123, Jakarta Pusat",
-      phone: "(021) 1234-5678",
-      email: "info@labellacucina.com",
+      address: "Jl. Setia Lk II , Tanjungbalai",
+      phone: "081277112721",
+      email: "admin@kantinmakvika.com",
       openingHours: {
         weekdays: "11:00 - 22:00",
         weekends: "10:00 - 23:00"
@@ -374,12 +374,12 @@ export const seedInitialData = async (): Promise<void> => {
 
     // Seed settings
     await setDoc(doc(db, SETTINGS_COLLECTION, SETTINGS_DOC_ID), {
-      restaurantName: "La Bella Cucina",
-      whatsappNumber: "6281234567890",
+      restaurantName: "Kantin Mak Vika",
+      whatsappNumber: "6281277112721",
       whatsappMessage: "Halo, saya ingin memesan:\n\n{orderDetails}\n\nTotal: {totalPrice}\n\nTerima kasih!",
-      address: "Jl. Sudirman No. 123, Jakarta Pusat",
-      phone: "(021) 1234-5678",
-      email: "info@labellacucina.com",
+      address: "Jl. Setia Lk II , Tanjungbalai",
+      phone: "081277112721",
+      email: "admin@kantinmakvika.com",
       openingHours: {
         weekdays: "11:00 - 22:00",
         weekends: "10:00 - 23:00"
